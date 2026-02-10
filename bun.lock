@@ -1,0 +1,17 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "alien-signals-mapish",
+      "dependencies": {
+        "alien-signals-getset": "github:tomByrer/alien-signals-getset",
+      },
+    },
+  },
+  "packages": {
+    "alien-signals": ["alien-signals@3.1.2", "", {}, "sha512-d9dYqZTS90WLiU0I5c6DHj/HcKkF8ZyGN3G5x8wSbslulz70KOxaqCT0hQCo9KOyhVqzqGojvNdJXoTumZOtcw=="],
+
+    "alien-signals-getset": ["alien-signals-getset@github:tomByrer/alien-signals-getset#0b5165e", { "dependencies": { "alien-signals": "3.1.2" } }, "tomByrer-alien-signals-getset-0b5165e"],
+  }
+}

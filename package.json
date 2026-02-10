@@ -1,0 +1,12 @@
+{
+	"name": "alien-signals-mapish",
+	"version": "0.1.0",
+	"description": "stackblitz/alien-signals with a JS Map() API subset",
+	"license":"MIT",
+	"scripts": {
+		"test": "bun test"
+	},
+	"dependencies": {
+		"alien-signals-getset": "github:tomByrer/alien-signals-getset"
+	}
+}
