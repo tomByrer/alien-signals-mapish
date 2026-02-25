@@ -48,7 +48,14 @@ Also `bun test` in CLI runs the `.test.js` file.
 
 ### History
 
-* 0.1.0 init, Developed for my [`state-shifter` Finite State Machine](https://github.com/tomByrer/state-shifter) as a progressive enhancement to JS's `Map()`. 
+* 0.1.0 init, Developed for my [`state-shifter` Finite State Machine](https://github.com/tomByrer/state-shifter) as a progressive enhancement to JS's `Map()`.   Uses alien-signals@3.1.2
+
+- 1.0.20260225
+  * merged in [alien-signals-getset](https://github.com/tomByrer/alien-signals-getset) [wrapper](https://github.com/johnsoncodehk/alien-signals-starter)
+  * improved get()/set() performance
+  * + getSnapshot() : returns an object of the current array of key,value arrays
+  * + mergePresets() : add new key,value arrays IF the key does not currently exist
+  * + queueUpdates()/resumeUpdates() : helpers that will stop Signal updates until resumed if you want to [batch changes](https://github.com/stackblitz/alien-signals/issues/62).
 
 ### License
 

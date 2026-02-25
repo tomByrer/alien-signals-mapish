@@ -1,12 +1,12 @@
 {
 	"name": "alien-signals-mapish",
-	"version": "0.1.0",
-	"description": "stackblitz/alien-signals with a JS Map() API subset",
+	"version": "1,0.20260225",
+	"description": "stackblitz/alien-signals with a JS Map() API, sorta",
 	"license":"MIT",
 	"scripts": {
 		"test": "bun test"
 	},
-	"dependencies": {
-		"alien-signals-getset": "github:tomByrer/alien-signals-getset"
-	}
+    "dependencies": {
+        "alien-signals": "3.1.2"
+    }
 }
